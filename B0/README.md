@@ -2,5 +2,5 @@
 
 Basic Maven Web Project with
 
-* basic web.xml
-* basic index.html
+* basic `web.xml`
+* basic `index.html`
