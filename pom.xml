@@ -8,7 +8,9 @@
   <name>mvnbase</name>
 	<modules>
 		<module>servlet</module>
-		<module>spring</module>
+		<module>servlet-webservlet</module>
+		<module>servlet-webservlet-async</module>
+		<module>spring-webmvc-controller</module>
 	</modules>
 
 </project>

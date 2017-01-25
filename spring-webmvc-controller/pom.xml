@@ -7,9 +7,9 @@
 		<version>0.0.1</version>
 	</parent>
 	<groupId>com.github.xdptdr.mvnbase</groupId>
-	<artifactId>mvnbase-servlet</artifactId>
+	<artifactId>mvnbase-spring-webmvc-controller</artifactId>
 	<packaging>war</packaging>
-	<name>mvnbase-servlet</name>
+	<name>spring-webmvc-controller</name>
 
 	<build>
 		<plugins>
@@ -24,12 +24,13 @@
 			</plugin>
 		</plugins>
 	</build>
+
 	<dependencies>
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<version>3.1.0</version>
-			<scope>provided</scope>
-		</dependency>
+
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-webmvc</artifactId>
+		<version>4.3.5.RELEASE</version>
+	</dependency>
 	</dependencies>
 </project>

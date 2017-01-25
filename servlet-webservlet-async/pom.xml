@@ -7,9 +7,9 @@
 		<version>0.0.1</version>
 	</parent>
 	<groupId>com.github.xdptdr.mvnbase</groupId>
-	<artifactId>mvnbase-servlet</artifactId>
+	<artifactId>mvnbase-servlet-webservlet-async</artifactId>
 	<packaging>war</packaging>
-	<name>mvnbase-servlet</name>
+	<name>mvnbase-servlet-webservlet-async</name>
 
 	<build>
 		<plugins>
